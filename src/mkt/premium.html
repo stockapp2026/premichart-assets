@@ -1,0 +1,49 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="base.css">
+<style>
+  .stage { width: 1200px; height: 900px;
+    background:
+      radial-gradient(1000px 620px at 72% 40%, rgba(99,102,241,0.22), transparent 64%),
+      radial-gradient(560px 360px at 12% 12%, rgba(245,158,11,0.07), transparent 60%),
+      #0b0c10;
+  }
+  .copy { position: absolute; left: 72px; top: 96px; width: 545px; z-index: 5; }
+  .copy .pill { margin-bottom: 30px; }
+  .copy h1 { font-size: 78px; line-height: 1.03; }
+  .copy .sub { margin-top: 26px; font-size: 21px; line-height: 1.55; width: 470px; }
+  .trial { margin-top: 40px; }
+  .trial .big { font-size: 44px; font-weight: 900; color: #fff; letter-spacing: -1px; }
+  .trial .big .grn { color: #34d399; }
+  .trial .price { margin-top: 10px; font-size: 22px; font-weight: 700; color: #c8cdd8; }
+  .trial .price s { color: #6f7684; font-weight: 500; }
+  .trial .founder { display: inline-block; margin-top: 16px; border-radius: 10px; padding: 9px 16px;
+    background: rgba(245,158,11,0.12); border: 1px solid rgba(245,158,11,0.5);
+    color: #fbbf24; font-size: 16.5px; font-weight: 800; letter-spacing: 0.4px; }
+  .p1 { width: 316px; right: 216px; top: 88px; transform: rotate(-4deg); z-index: 4;
+        box-shadow: 0 60px 120px rgba(0,0,0,0.7), 0 0 110px rgba(124,88,247,0.45), inset 0 1px 1px rgba(255,255,255,0.14); }
+  .p2 { width: 306px; right: 8px; top: 200px; transform: rotate(7deg); z-index: 3; }
+  .g1 { width: 560px; height: 460px; right: 70px; top: 180px; background: #6d28d9; opacity: 0.38; }
+</style></head><body>
+<div class="stage">
+  <div class="grid"></div>
+  <div class="glowbar g1"></div>
+  <div class="copy">
+    <div class="pill"><span class="dot"></span>PREMICHART PREMIUM</div>
+    <h1>Unlock the<br><span class="grad-indigo">Full Edge.</span></h1>
+    <div class="sub">AI price targets, HERD crowd forecasts on every symbol, and unlimited portfolios &mdash; the complete toolkit for serious investors.</div>
+    <div class="trial">
+      <div class="big"><span class="grn">7 days free.</span> Then&hellip;</div>
+      <div class="price">$9.99/mo &nbsp;&middot;&nbsp; $79.99/yr</div>
+      <div class="founder">&#9889; FOUNDER'S PRICING &mdash; LOCKED IN FOR EARLY MEMBERS</div>
+    </div>
+  </div>
+  <div class="phone p1">
+    <div class="screen"><div class="island"></div><img src="content-fpe.png"></div>
+  </div>
+  <div class="phone p2">
+    <div class="screen"><div class="island"></div><img src="content-nvda.png"></div>
+  </div>
+</div>
+</body></html>
